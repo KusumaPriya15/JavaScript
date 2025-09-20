@@ -1,0 +1,11 @@
+let score="44asd"
+console.log(typeof score)
+console.log(typeof(score))
+let valueInNumber=Number(score)
+console.log(typeof(score))
+console.log(typeof(valueInNumber))
+console.log(valueInNumber)
+
+//"33" -> 33
+//"aabsd" -> NaN
+//true ->1/0
