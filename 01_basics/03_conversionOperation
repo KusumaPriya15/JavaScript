@@ -22,3 +22,31 @@ let num=98
 let strNum=String(num)
 console.log(strNum)
 console.log(typeof strNum)
+
+// ******************** Operations ******************** 
+let val=3
+let negVal=-val
+console.log(negVal)
+
+console.log(3+2); //5
+console.log(3-2); //1
+console.log(3*2); //6
+console.log(6/2); //3
+console.log(3**2);//9
+console.log(3%2); //1
+
+let str1="adios"
+let str2=" amigos"
+let str3=str1+str2
+console.log(str3) //adios amigos
+
+console.log("1"+2) //12
+console.log(1+"2") //12
+console.log(1+"2"+2) //122
+console.log(1+2+"2") //32 not recommended
+
+let counter=100
+// ++counter
+// console.log(counter);
+counter++
+console.log(counter);
