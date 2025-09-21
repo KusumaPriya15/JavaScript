@@ -9,3 +9,16 @@ console.log(valueInNumber)
 //"33" -> 33
 //"aabsd" -> NaN
 //true ->1/0
+
+let isLogged=1
+let boolIsLogged=Boolean(isLogged)
+console.log(boolIsLogged)
+
+//1 -> true; 0 -> false
+//"" -> false
+//"hello" -> true
+
+let num=98
+let strNum=String(num)
+console.log(strNum)
+console.log(typeof strNum)
